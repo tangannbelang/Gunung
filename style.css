@@ -1,0 +1,152 @@
+/* Float property untuk layout */
+header {
+  float: left;
+  width: 100%;
+  background-color: #f0f0f0;
+  color: #0b0b0b;
+  padding: 20px;
+  font-size: 27px;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-family: 'Comic sans ms';
+  border-radius: 30px;
+  position: static;
+}
+
+main {
+  float: left;
+  width: 65%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+article {
+  float: left;
+  width: 100%;
+  margin-right: 5%;
+  box-sizing: border-box;
+  font-family: 'Comic sans ms';
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px #ddd;
+  padding: 10px;
+  margin: 20px;
+}
+
+aside {
+  float: right;
+  width: 30%;
+  box-sizing: border-box;
+  font-family: 'Comic sans ms';
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px #ddd;
+  font-size: 20px;
+  padding: 10px;
+  margin-top: 25px;
+}
+
+footer {
+  clear: both;
+  background-color: #f0f0f0;
+  color: #0b0b0b;
+  padding: 20px;
+  text-align: center;
+  box-sizing: border-box;
+  font-family: 'Comic sans ms';
+  border-radius: 27px;
+  font-size: 18px;
+}
+
+/* Style untuk biodata */
+#biodata {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#biodata img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+#biodata h3 {
+  margin-top: 0;
+  font-size: 1.8rem;
+}
+
+#biodata p {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+/* Style untuk navigation */
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #0b0b0b;
+  font-weight: bold;
+}
+
+/* Style untuk article */
+article h2 {
+  font-size: 2.4rem;
+  margin-top: 0;
+}
+
+article p {
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+article img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+  /* Style untuk dropdown */
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+  }
+  
+  .dropdown-menu li a {
+    display: block;
+    padding: 8px 16px;
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
